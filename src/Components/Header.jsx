@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <div className="styles.header">
-            <nav>
+            <nav className="container">
                 <Link to="/">Login / Criar</Link>
+                <Link to="/login">Login / Criar</Link>
             </nav>
         </div>
     )
